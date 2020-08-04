@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/background_light"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dua_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="2.5dp"
+        android:gravity="start|center_horizontal"
+        android:text="Dua for Corona (Defense)"
+        android:textColor="@color/Splash_background"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dua_arabic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="2.5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/bebasneue_bold"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="8sp"
+        android:text="بِسْمِ اللَّهِ الَّذِي لاَ يَضُرُّ مَعَ اسْمِهِ شَىْءٌ فِي الأَرْضِ وَلاَ فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ"
+        android:textColor="@color/Splash_background"
+        android:textScaleX="1"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dua_name" />
+
+    <TextView
+        android:id="@+id/dua_english"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="2.5dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="8sp"
+        android:text="In the name of Allah with Whose Name nothing on earth or in heaven harms and He is the All-Hearing the All-Knowing and is then harmed by anything."
+        android:textColor="@color/Splash_background"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dua_urdu" />
+
+    <TextView
+        android:id="@+id/dua_urdu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/bebasneue_bold"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="8sp"
+        android:text="س اللہ کے نام سے جس کے نام لینے سے زمین اور آسمان کی کوئی چیز نقصان نہیں پہنچا سکتی ہے، وہ سمیع و علیم ( یعنی سننے اور جاننے والا ہے ) "
+        android:textColor="@color/Splash_background"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dua_arabic" />
+
+</LinearLayout>

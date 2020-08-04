@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/Splash_background"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+
+        <ImageButton
+            android:id="@+id/action_bar_back"
+            android:layout_width="wrap_content"
+            android:layout_height="23dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_arrow_back_black_24dp" />
+
+        <TextView
+            android:id="@+id/action_bar_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/app_name"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <!--        <ImageButton-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:src="@drawable/forward"-->
+        <!--            android:id="@+id/action_bar_forward"-->
+        <!--            android:layout_gravity="center_vertical"-->
+        <!--            android:background="@android:color/transparent"-->
+        <!--            android:layout_alignParentTop="true"-->
+        <!--            android:layout_centerHorizontal="true" />-->
+
+
+    </TableRow>
+
+</TableLayout>
+
+<!--<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:id="@+id/my_toolbar"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:background="@color/Splash_background"-->
+<!--    android:elevation="4dp"-->
+<!--    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"-->
+<!--    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">-->
+
+<!--</android.support.v7.widget.Toolbar>-->
